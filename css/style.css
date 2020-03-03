@@ -1,0 +1,51 @@
+.header-image{
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
+    /* identify size of image */
+    height: 60vh;
+    background-size: cover;
+    /* for push image to above */
+    background-position: center 30%;
+}   
+.cover{
+    height: 60vh;
+    background:rgba(0,0,0,0.4);
+}
+ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+ul li{
+    padding: 20px;
+    text-transform: uppercase;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+ul li a:hover{
+    /* nav have underline below it when hover */
+    text-decoration: underline;
+}
+.box{
+    margin-left:100px ;
+}
+.box h3{
+    color: white;
+    font-family: cursive;
+
+}
+.btn .box{
+     width: 200px;
+     padding: 15px;
+     font-size: 15px;
+     color: white;
+     cursor: pointer;
+     outline: none;
+     border-radius: 40px;
+     border: none;
+     background: pink;
+}
